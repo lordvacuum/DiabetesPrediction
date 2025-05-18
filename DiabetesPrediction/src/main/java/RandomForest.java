@@ -12,10 +12,9 @@ public class RandomForest {
         this.trees = new ArrayList<>();
     }
 
-    public void train(List<Record> records) {
+    public void train(List<Record> records, Random rand) {
         this.trainingData = records;
         trees.clear();
-        Random rand = new Random();
         for (int i = 0; i < numTrees; i++) {
             List<Record> sample = new ArrayList<>();
             for (int j = 0; j < records.size(); j++) {

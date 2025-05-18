@@ -2,20 +2,19 @@ package diabetes;
 
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class NodeTest {
 
     @Test
     void test_predict_normal_leafNode() {
-        // Scenario: Leaf node prediction
         Node node = new Node(true);
         assertTrue(node.predict(Arrays.asList(90.0, 30.0, 45.0)), "Leaf node should return its label (true)");
     }
 
     @Test
     void test_predict_normal_nonLeaf() {
-        // Scenario: Non-leaf node with children
         Node node = new Node(1, 25.0);
         node.left = new Node(false);
         node.right = new Node(true);
@@ -25,7 +24,6 @@ public class NodeTest {
 
     @Test
     void test_predict_edge_threshold() {
-        // Scenario: Feature value equals threshold (boundary case)
         Node node = new Node(1, 25.0);
         node.left = new Node(false);
         node.right = new Node(true);

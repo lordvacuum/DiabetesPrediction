@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import javax.swing.SwingWorker;
 
 public class DiabetesGUI {
@@ -99,7 +100,7 @@ public class DiabetesGUI {
                     protected Void doInBackground() {
                         try {
                             if (collector.loadFromCSV(file.getAbsolutePath())) {
-                                forest.train(collector.getRecords());
+                                forest.train(collector.getRecords(), new Random());
                                 trained = true;
                                 double accuracy = forest.computeAccuracy(collector.getRecords());
                                 resultArea.setText("Dataset loaded and model trained.\nAccuracy: " + String.format("%.2f", accuracy) + "%");

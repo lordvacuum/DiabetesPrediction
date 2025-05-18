@@ -1,0 +1,538 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/opt/homebrew/Cellar/maven/3.9.9/libexec/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+Java version: 24.0.1, vendor: Oracle Corporation, runtime: /Users/jaskaran/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "14.7.4", arch: "aarch64", family: "mac"
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/opt/homebrew/Cellar/maven/3.9.9/libexec/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /opt/homebrew/Cellar/maven/3.9.9/libexec/conf/settings.xml
+[DEBUG] Reading user settings from /Users/jaskaran/.m2/settings.xml
+[DEBUG] Reading global toolchains from /opt/homebrew/Cellar/maven/3.9.9/libexec/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/jaskaran/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/jaskaran/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/jaskaran/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project diabetes:DiabetesPrediction:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: diabetes:DiabetesPrediction:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --------------------< diabetes:DiabetesPrediction >---------------------
+[INFO] Building DiabetesPrediction 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       diabetes:DiabetesPrediction:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">24</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">24</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=168625, ConflictMarker.markTime=41083, ConflictMarker.nodeCount=17, ConflictIdSorter.graphTime=103083, ConflictIdSorter.topsortTime=133875, ConflictIdSorter.conflictIdCount=8, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1058792, ConflictResolver.conflictItemCount=16, DfDependencyCollector.collectTime=12931291, DfDependencyCollector.transformTime=2110209}
+[DEBUG] diabetes:DiabetesPrediction:jar:1.0-SNAPSHOT
+[DEBUG]    org.junit.jupiter:junit-jupiter:jar:5.9.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.9.2:test
+[DEBUG]          org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.9.2:test
+[DEBUG]          org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-params:jar:5.9.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-engine:jar:5.9.2:test
+[DEBUG]          org.junit.platform:junit-platform-engine:jar:1.9.2:test
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ DiabetesPrediction ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=11792, ConflictMarker.markTime=28875, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=3667, ConflictIdSorter.topsortTime=5958, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=52292, ConflictResolver.conflictItemCount=3, DfDependencyCollector.collectTime=16151041, DfDependencyCollector.transformTime=111209}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1369b299]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[DEBUG]   (f) reportDirectory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5d7835a8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/maven-status
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/RandomForest.class
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/Node.class
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/DiabetesGUI$1.class
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/Record.class
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/Main.class
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/DiabetesGUI.class
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/Tree.class
+[INFO] Deleting file /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes/RecordCollector.class
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes/diabetes
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources/annotations
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources
+[INFO] Deleting directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target
+[DEBUG] Skipping non-existing directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[DEBUG] Skipping non-existing directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DiabetesPrediction ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=29666, ConflictMarker.markTime=35167, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=10041, ConflictIdSorter.topsortTime=24000, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=183542, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=30248958, DfDependencyCollector.transformTime=301209}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.3.1:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1369b299]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: diabetes:DiabetesPrediction:1.0-SNAPSHOT @ /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5d7835a8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] apple.awt.application.name: Launcher
+[DEBUG] classworlds.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/bin/m2.conf
+[DEBUG] env.COMMAND_MODE: unix2003
+[DEBUG] env.HOME: /Users/jaskaran
+[DEBUG] env.HOMEBREW_CELLAR: /opt/homebrew/Cellar
+[DEBUG] env.HOMEBREW_PREFIX: /opt/homebrew
+[DEBUG] env.HOMEBREW_REPOSITORY: /opt/homebrew
+[DEBUG] env.INFOPATH: /opt/homebrew/share/info:
+[DEBUG] env.JAVA_HOME: /Users/jaskaran/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home
+[DEBUG] env.LC_CTYPE: UTF-8
+[DEBUG] env.LOGNAME: jaskaran
+[DEBUG] env.MAVEN_CMD_LINE_ARGS:  clean compile -X
+[DEBUG] env.MAVEN_PROJECTBASEDIR: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction
+[DEBUG] env.OLDPWD: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction
+[DEBUG] env.PATH: /Users/jaskaran/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home/bin:/Users/jaskaran/.local/bin:/Users/jaskaran/.local/bin/lvim:/Users/jaskaran/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home/bin:/Users/jaskaran/.local/bin:/Users/jaskaran/.local/bin/lvim:/Users/jaskaran/.local/bin:/Users/jaskaran/.local/bin/lvim:/Users/jaskaran/.local/share/solana/install/active_release/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/jaskaran/.cargo/bin
+[DEBUG] env.PWD: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction
+[DEBUG] env.SHELL: /bin/zsh
+[DEBUG] env.SHLVL: 1
+[DEBUG] env.SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.UTIBRxS6mJ/Listeners
+[DEBUG] env.TERM: xterm-256color
+[DEBUG] env.TERMINAL_EMULATOR: JetBrains-JediTerm
+[DEBUG] env.TERM_SESSION_ID: 5ed2aa94-5800-4b40-b5de-3cf88bd2d356
+[DEBUG] env.TMPDIR: /var/folders/yn/96d_4fz13x13pcks8xgrvtq80000gn/T/
+[DEBUG] env.USER: jaskaran
+[DEBUG] env.XPC_FLAGS: 0x0
+[DEBUG] env.XPC_SERVICE_NAME: 0
+[DEBUG] env.__CFBundleIdentifier: com.jetbrains.intellij
+[DEBUG] env.__CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x0
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: /
+[DEBUG] ftp.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] http.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] java.class.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/boot/plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 68.0
+[DEBUG] java.home: /Users/jaskaran/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home
+[DEBUG] java.io.tmpdir: /var/folders/yn/96d_4fz13x13pcks8xgrvtq80000gn/T/
+[DEBUG] java.library.path: /Users/jaskaran/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[DEBUG] java.runtime.name: OpenJDK Runtime Environment
+[DEBUG] java.runtime.version: 24.0.1+9-30
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 24
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: https://java.oracle.com/
+[DEBUG] java.vendor.url.bug: https://bugreport.java.com/bugreport/
+[DEBUG] java.version: 24.0.1
+[DEBUG] java.version.date: 2025-04-15
+[DEBUG] java.vm.compressedOopsMode: Zero based
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: OpenJDK 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 24
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 24.0.1+9-30
+[DEBUG] jdk.debug: release
+[DEBUG] library.jansi.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/lib/jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2025-05-17T20:17:05Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.source: 24
+[DEBUG] maven.compiler.target: 24
+[DEBUG] maven.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/conf
+[DEBUG] maven.home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+[DEBUG] maven.multiModuleProjectDirectory: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction
+[DEBUG] maven.version: 3.9.9
+[DEBUG] native.encoding: UTF-8
+[DEBUG] os.arch: aarch64
+[DEBUG] os.name: Mac OS X
+[DEBUG] os.version: 14.7.4
+[DEBUG] path.separator: :
+[DEBUG] project.baseUri: file:/Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] socksNonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] stderr.encoding: UTF-8
+[DEBUG] stdout.encoding: UTF-8
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: /Users/jaskaran/Library/Java/JavaVirtualMachines/openjdk-24.0.1/Contents/Home/lib
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.io.unicode.encoding: UnicodeBig
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean compile -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: UTF-8
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] user.country: US
+[DEBUG] user.dir: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction
+[DEBUG] user.home: /Users/jaskaran
+[DEBUG] user.language: en
+[DEBUG] user.name: jaskaran
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DiabetesPrediction ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=39250, ConflictMarker.markTime=39417, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=16083, ConflictIdSorter.topsortTime=11458, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=387709, ConflictResolver.conflictItemCount=22, DfDependencyCollector.collectTime=34274750, DfDependencyCollector.transformTime=507875}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.2.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.15.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.0:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1369b299]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction
+[DEBUG]   (f) buildDirectory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target
+[DEBUG]   (f) compilePath = [/Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: diabetes:DiabetesPrediction:1.0-SNAPSHOT @ /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/pom.xml
+[DEBUG]   (f) projectArtifact = diabetes:DiabetesPrediction:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5d7835a8
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 24
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 24
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources/annotations to compile source roots:
+  /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java
+[DEBUG] New compile source roots:
+  /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java
+  /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] 	Stale source detected: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/diabetes/Main.java
+[INFO] 	Stale source detected: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/Record.java
+[INFO] 	Stale source detected: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/RandomForest.java
+[INFO] 	Stale source detected: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/Tree.java
+[INFO] 	Stale source detected: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/Node.java
+[INFO] 	Stale source detected: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/RecordCollector.java
+[INFO] 	Stale source detected: /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/DiabetesGUI.java
+[INFO] 	Input tree files (+): /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/DiabetesGUI.java
+[INFO] 	Input tree files (+): /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/Node.java
+[INFO] 	Input tree files (+): /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/RandomForest.java
+[INFO] 	Input tree files (+): /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/Record.java
+[INFO] 	Input tree files (+): /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/RecordCollector.java
+[INFO] 	Input tree files (+): /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/Tree.java
+[INFO] 	Input tree files (+): /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java/diabetes/Main.java
+[INFO] Recompiling the module because of changed source code.
+[DEBUG] Classpath:
+[DEBUG]  /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes
+[DEBUG] Source roots:
+[DEBUG]  /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java
+[DEBUG]  /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources/annotations
+[DEBUG] Command line options:
+[DEBUG] -d /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes -classpath /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/classes: -sourcepath /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/src/main/java:/Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources/annotations: -s /Users/jaskaran/Documents/GitHub/DiabetesPrediction/DiabetesPrediction/target/generated-sources/annotations -g -target 24 -source 24 -encoding UTF-8 -XDuseUnsharedTable=true
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 7 source files with javac [debug target 24] to target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.672 s
+[INFO] Finished at: 2025-05-17T16:17:06-04:00
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
